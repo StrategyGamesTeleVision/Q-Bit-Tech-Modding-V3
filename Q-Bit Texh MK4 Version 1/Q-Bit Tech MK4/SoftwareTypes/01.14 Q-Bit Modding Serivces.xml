@@ -1,0 +1,28 @@
+<SoftwareType>
+	<Name>Q-Bit Modding Services</Name>
+	<Category>Graphics</Category>
+	<Description>Program that allows you to handle 2 dimensional arrays of color information</Description>
+	<Unlock>3000</Unlock>
+	<Random>0.1</Random>
+	<Popularity>0.7</Popularity>
+	<Retention>0.5</Retention>
+	<IdealPrice>80</IdealPrice>
+	<OSSpecific>True</OSSpecific>
+	<OSLimit>Home OS</OSLimit>
+	<OneClient>False</OneClient>
+	<InHouse>True</InHouse>
+	<Iterative>1</Iterative>
+	<NameGenerator>2DEditor</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Image rendering</Name>
+			<Description>Actually display an image on the screen</Description>
+			<Category>2D</Category>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+	</Features>
+</SoftwareType>

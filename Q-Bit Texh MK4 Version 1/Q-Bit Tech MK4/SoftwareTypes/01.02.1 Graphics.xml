@@ -1,0 +1,66 @@
+<SoftwareType>
+	<Name>Graphics</Name>
+	<Category>Hardware</Category>
+	<Description>Hardware that allows you to project graphics onto the screen.</Description>
+	<Random>0.1</Random>
+	<Popularity>0.7</Popularity>
+	<Retention>0.5</Retention>
+	<IdealPrice>80</IdealPrice>
+	<OSSpecific>False</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>False</InHouse>
+	<Iterative>1</Iterative>
+	<NameGenerator>2DEditor</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE" Vital="TRUE">
+			<Name>TEXT BASED</Name>
+			<Dependency Software="Text Editor">Text Rendering</Dependency>
+			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
+			<Category>System</Category>
+			<DevTime>2</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature From="TEXT BASED" Vital="TRUE">
+			<Name>2D RENDERING</Name>
+			<Unlock>1990</Unlock>
+			<Dependency Software="2D Editor">2D Rendering</Dependency>
+			<Description>Allows you to see South-Park episodes.</Description>
+			<Category>2D</Category>
+			<ArtCategory>2D</ArtCategory>
+			<DevTime>2</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>0.5</CodeArt>
+		</Feature>
+		<Feature From="2D RENDERING" Vital="TRUE">
+			<Name>3D RENDERING</Name>
+			<Unlock>2000</Unlock>
+			<Dependency Software="3D Editor">3D Rendering</Dependency>
+			<Description>We can finally see the Super Bowl live.</Description>
+			<Category>System</Category>
+			<ArtCategory>3D</ArtCategory>
+			<DevTime>4</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>0.5</CodeArt>
+		</Feature>
+		<Feature Vital="TRUE" Research="3D RENDERING">
+			<Name>VR READY</Name>
+			<Unlock>2010</Unlock>
+			<Dependency Software="Graphics">3D RENDERING</Dependency>
+			<Description>Hopefully "The Lawn-mower Man" doesnt get us!!!!</Description>
+			<Category>System</Category>
+			<ArtCategory>3D</ArtCategory>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>0.5</CodeArt>
+		</Feature>
+	</Features>
+</SoftwareType>

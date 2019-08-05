@@ -1,0 +1,55 @@
+<SoftwareType>
+<Name>CMS</Name>
+	<Category>Productivity</Category>
+	<Description>A Content Management System is mostly used for the very specific task of managing content</Description>
+	<Unlock>3000</Unlock>
+	<Random>0</Random>
+	<Categories>
+		<Category Name="Web Publishing">
+			<Description>To avoid forcing bloggers to do backend webprograming</Description>
+			<Popularity>0.3</Popularity>
+			<Retention>0.6</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>1</Iterative>
+			<Unlock>3000</Unlock>
+			<IdealPrice>70</IdealPrice>
+			<NameGenerator>WebPublishing</NameGenerator>
+		</Category>
+		<Category Name="Financial">
+			<Description>Help businesses keep track of their money</Description>
+			<Popularity>0.5</Popularity>
+			<Retention>0.95</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>1</Iterative>
+			<Unlock>3000</Unlock>
+			<IdealPrice>130</IdealPrice>
+			<NameGenerator>Financial</NameGenerator>
+		</Category>
+		<Category Name="Workflow">
+			<Description>The virtual whiteboard</Description>
+			<Popularity>0.3</Popularity>
+			<Retention>0.8</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>1</Iterative>
+			<Unlock>3000</Unlock>
+			<IdealPrice>70</IdealPrice>
+			<NameGenerator>Workflow</NameGenerator>
+		</Category>
+	</Categories>
+	<OSSpecific>False</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>False</InHouse>
+	<Unlock>3000</Unlock>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>File management</Name>
+			<Category>System</Category>
+			<Description></Description>
+			<DevTime>4</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+	</Features>
+</SoftwareType>

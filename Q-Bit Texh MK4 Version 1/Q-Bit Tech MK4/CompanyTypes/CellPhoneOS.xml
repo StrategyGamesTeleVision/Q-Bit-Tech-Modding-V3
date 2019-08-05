@@ -1,0 +1,10 @@
+<CompanyType>
+	<Specialization>Phone1 Operating Systems</Specialization>
+	<Force>Cell Operating System,Cell Phone OS</Force>
+	<PerYear>0.2</PerYear>
+	<Min>1</Min>
+	<Max>2</Max>
+	<Types>
+		<Type Software="Cell Operating System" Category="Cell Phone OS">1</Type>
+	</Types>
+</CompanyType>

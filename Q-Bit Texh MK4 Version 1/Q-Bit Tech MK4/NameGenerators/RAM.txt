@@ -1,0 +1,17 @@
+-start(base)
+-base(base2,base2,ext)
+Kingston
+DigitalStorm
+Alienware
+Dell
+HP
+Samsung
+Corsair
+-base2(stop,stop,ext)
+ DDR1
+ DDR2
+ DDR3
+ DDR4
+-ext(stop)
+ 1633MHZ
+ 2300MHZ

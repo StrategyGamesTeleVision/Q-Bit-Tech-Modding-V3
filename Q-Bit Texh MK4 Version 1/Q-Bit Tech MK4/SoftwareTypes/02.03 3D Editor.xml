@@ -1,0 +1,41 @@
+<SoftwareType>
+	<Name>3D Editor</Name>
+	<Description>Points in space, basically</Description>
+	<Category>Graphics</Category>
+	<Unlock>1999</Unlock>
+	<Random>0.1</Random>
+	<Popularity>0.6</Popularity>
+	<Retention>0.5</Retention>
+	<OSSpecific>True</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>True</InHouse>
+	<Iterative>1</Iterative>
+	<IdealPrice>130</IdealPrice>
+	<NameGenerator>3DEditor</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>3D Rendering</Name>
+			<Description>Move points in space around on the screen</Description>
+			<Category>3D</Category>
+			<ArtCategory>3D</ArtCategory>
+			<DevTime>5</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>4</Stability>
+			<CodeArt>0.5</CodeArt>
+		</Feature>
+		<Feature Vital="TRUE" Research="3D Rendering">
+			<Name>VR</Name>
+			<Unlock>2009</Unlock>
+			<Description>Virtual Reality "The world around you is not what you know it to be"</Description>
+			<Unlock>1998</Unlock>
+			<Category>3D</Category>
+			<ArtCategory>3D</ArtCategory>
+			<DevTime>7</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>4</Usability>
+			<Stability>6</Stability>
+			<CodeArt>0.5</CodeArt>
+		</Feature>
+	</Features>
+</SoftwareType>

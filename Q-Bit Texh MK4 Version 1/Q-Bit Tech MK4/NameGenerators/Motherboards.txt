@@ -1,0 +1,17 @@
+-start(base)
+-base(base2,base2,ext)
+ASUS
+GigaByte
+MSi
+Dell
+Compaq
+HP
+-base2(stop,stop,ext)
+Pro
+Premium
+Deluxe
+ 2500
+ 4400
+-ext(stop)
+ Legend
+ EditorsCut

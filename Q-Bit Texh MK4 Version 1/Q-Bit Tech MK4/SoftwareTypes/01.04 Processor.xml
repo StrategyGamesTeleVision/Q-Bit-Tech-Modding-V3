@@ -1,0 +1,192 @@
+<SoftwareType>
+	<Name>Processor</Name>
+	<Category>Hardware</Category>
+	<Description>A component of the motherboard that helps process information quickly and reliably.</Description>
+	<Random>0.1</Random>
+	<Categories>
+		<Category Name="Single-Core">
+			<Description>.</Description>
+			<Popularity>1</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>1</Iterative>
+			<NameGenerator>SingleCoreGen</NameGenerator>
+		</Category>
+		<Category Name="Double-Core">
+			<Unlock>1990</Unlock>
+			<Description>.</Description>
+			<Popularity>1</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>1</Iterative>
+			<NameGenerator>DoubleCoreGen</NameGenerator>
+		</Category>
+		<Category Name="Triple-Core">
+			<Unlock>2000</Unlock>
+			<Description>.</Description>
+			<Popularity>1</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>1</Iterative>
+			<NameGenerator>TripleCoreGen</NameGenerator>
+		</Category>
+		<Category Name="Quad-Core">
+			<Unlock>2010</Unlock>
+			<Description>.</Description>
+			<Popularity>1</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>1</Iterative>
+			<NameGenerator>QuadCoreGen</NameGenerator>
+		</Category>
+	</Categories>
+	<Popularity>0.7</Popularity>
+	<Retention>0.5</Retention>
+	<IdealPrice>80</IdealPrice>
+	<OSSpecific>False</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>True</InHouse>
+	<Iterative>1</Iterative>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Single-Core Type</Name>
+			<Description>.</Description>
+			<Category>System</Category>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Single-Core">1980</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>L1 100KB</Name>
+			<Description>.</Description>
+			<Category>System</Category>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Single-Core">1980</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>L1 200KB</Name>
+			<Dependency Software="Power Supply">500watts 48</Dependency>
+			<Dependency Software="Heat Sinks">10MM FAN</Dependency>
+			<Description>.</Description>
+			<Category>System</Category>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Single-Core">1980</SoftwareCategory>
+		</Feature>
+		<Feature Forced="TRUE">
+			<Name>Double-Core Type</Name>
+			<Description>.</Description>
+			<Category>System</Category>
+			<DevTime>3</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Double-Core">1990</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>L2 1MB</Name>
+			<Description>.</Description>
+			<Category>System</Category>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Double-Core">1990</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>L2 2MB</Name>
+			<Dependency Software="Power Supply">600watts 48</Dependency>
+			<Dependency Software="Heat Sinks">20MM FAN</Dependency>
+			<Description>.</Description>
+			<Category>System</Category>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Double-Core">1990</SoftwareCategory>
+		</Feature>
+		<Feature Forced="TRUE">
+			<Name>Triple-Core Type</Name>
+			<Description>.</Description>
+			<Category>System</Category>
+			<DevTime>4</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>4</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Triple-Core">2000</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>L3 1.5MB</Name>
+			<Description>.</Description>
+			<Category>System</Category>
+			<DevTime>5</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>4</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Triple-Core">2000</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>L3 3MB</Name>
+			<Dependency Software="Power Supply">700watts 48</Dependency>
+			<Dependency Software="Heat Sinks">40MM FAN</Dependency>
+			<Description>.</Description>
+			<Category>System</Category>
+			<DevTime>5</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>4</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Triple-Core">2000</SoftwareCategory>
+		</Feature>
+		<Feature Forced="TRUE" Vital="TRUE">
+			<Name>Quad-Core Type</Name>
+			<Description>.</Description>
+			<Category>System</Category>
+			<DevTime>5</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>5</Usability>
+			<Stability>5</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Quad-Core">2010</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>L4 2MB</Name>
+			<Description>.</Description>
+			<Category>System</Category>
+			<DevTime>6</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>5</Usability>
+			<Stability>5</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Quad-Core">2010</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>L4 4MB</Name>
+			<Dependency Software="Power Supply">800watts 48</Dependency>
+			<Dependency Software="Heat Sinks">50MM FAN</Dependency>
+			<Description>.</Description>
+			<Category>System</Category>
+			<DevTime>6</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>5</Usability>
+			<Stability>5</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Quad-Core">2010</SoftwareCategory>
+		</Feature>
+	</Features>
+</SoftwareType>

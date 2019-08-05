@@ -1,0 +1,275 @@
+<SoftwareType>
+	<Name>Audio Tool</Name>
+	<Category>Audio</Category>
+	<Description>The audio tool is for recording and mixing sound effects and music.</Description>
+	<Random>0.1</Random>
+	<Popularity>0.5</Popularity>
+	<Retention>0.5</Retention>
+	<IdealPrice>100</IdealPrice>
+	<OSSpecific>True</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>True</InHouse>
+	<Iterative>1</Iterative>
+	<NameGenerator>Audio</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE" Vital="TRUE">
+			<Name>Audio-Playback</Name>
+			<Category>Audio</Category>
+			<ArtCategory>Audio</ArtCategory>
+			<Description></Description>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>0.5</CodeArt>
+		</Feature>
+		<Feature Forced="TRUE">
+			<Name>Line-In</Name>
+			<Category>Audio</Category>
+			<ArtCategory>Audio</ArtCategory>
+			<Description></Description>
+			<DevTime>3</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>3</Stability>
+			<CodeArt>0.5</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Sound-Mixer</Name>
+			<Unlock>1981</Unlock>
+			<Category>Audio</Category>
+			<ArtCategory>Audio</ArtCategory>
+			<Description></Description>
+			<DevTime>4</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>4</Usability>
+			<Stability>4</Stability>
+			<CodeArt>0.5</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>8-Bit Audio</Name>
+			<Unlock>1982</Unlock>
+			<Category>Audio</Category>
+			<ArtCategory>Audio</ArtCategory>
+			<Description></Description>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>0.5</CodeArt>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>8-Bit Audio Assets</Name>
+			<Unlock>1985</Unlock>
+			<Dependency Software="Audio Tool">Audio-Playback</Dependency>
+			<Dependency Software="Audio Tool">Line-In</Dependency>
+			<Dependency Software="Audio Tool">Sound-Mixer</Dependency>
+			<Dependency Software="Audio Tool">8-Bit Audio</Dependency>
+			<Category>Audio</Category>
+			<Description></Description>
+			<DevTime>7</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>7</Usability>
+			<Stability>6</Stability>
+			<CodeArt>0.5</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Audio-Recording</Name>
+			<Unlock>1985</Unlock>
+			<Category>Audio</Category>
+			<ArtCategory>Audio</ArtCategory>
+			<Description></Description>
+			<DevTime>5</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>5</Usability>
+			<Stability>5</Stability>
+			<CodeArt>0.5</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Line-Out</Name>
+			<Unlock>1986</Unlock>
+			<Category>Audio</Category>
+			<ArtCategory>Audio</ArtCategory>
+			<Description></Description>
+			<DevTime>3</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>3</Stability>
+			<CodeArt>0.5</CodeArt>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Dual-Channel</Name>
+			<Unlock>1987</Unlock>
+			<Category>Audio</Category>
+			<ArtCategory>Audio</ArtCategory>
+			<Description></Description>
+			<DevTime>4</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>4</Usability>
+			<Stability>4</Stability>
+			<CodeArt>0.5</CodeArt>
+		</Feature>
+		<Feature Research="Dual-Channel">
+			<Name>Audio-Compression</Name>
+			<Unlock>1988</Unlock>
+			<Category>Audio</Category>
+			<ArtCategory>Audio</ArtCategory>
+			<Description></Description>
+			<DevTime>1</DevTime>
+			<Innovation>10</Innovation>
+			<Usability>10</Usability>
+			<Stability>10</Stability>
+			<CodeArt>0.5</CodeArt>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Music-Editor</Name>
+			<Category>Audio</Category>
+			<ArtCategory>Audio</ArtCategory>
+			<Description></Description>
+			<DevTime>4</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>5</Usability>
+			<Stability>5</Stability>
+			<CodeArt>0.5</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>16-Bit Audio</Name>
+			<Unlock>1987</Unlock>
+			<Category>Audio</Category>
+			<ArtCategory>Audio</ArtCategory>
+			<Description></Description>
+			<DevTime>4</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>4</Usability>
+			<Stability>4</Stability>
+			<CodeArt>0.5</CodeArt>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>16-Bit Audio Assets</Name>
+			<Unlock>1990</Unlock>
+			<Dependency Software="Audio Tool">Audio-Recording</Dependency>
+			<Dependency Software="Audio Tool">Dual-Channel</Dependency>
+			<Dependency Software="Audio Tool">Music-Editor</Dependency>
+			<Dependency Software="Audio Tool">16-Bit Audio</Dependency>
+			<Category>Audio</Category>
+			<Description></Description>
+			<DevTime>7</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>7</Usability>
+			<Stability>6</Stability>
+			<CodeArt>0.5</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>HD Audio Concepts</Name>
+			<Unlock>1999</Unlock>
+			<Category>Audio</Category>
+			<ArtCategory>Audio</ArtCategory>
+			<Description></Description>
+			<DevTime>5</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>6</Usability>
+			<Stability>4</Stability>
+			<CodeArt>0.5</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>HD Studio</Name>
+			<Unlock>2000</Unlock>
+			<Category>Audio</Category>
+			<Description></Description>
+			<DevTime>7</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>7</Usability>
+			<Stability>6</Stability>
+			<CodeArt>0.5</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>HD Audio</Name>
+			<Unlock>2000</Unlock>
+			<Category>Audio</Category>
+			<Description></Description>
+			<DevTime>7</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>7</Usability>
+			<Stability>6</Stability>
+			<CodeArt>0.5</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>HD Audio Assets</Name>
+			<Dependency Software="Audio Tool">HD Studio</Dependency>
+			<Dependency Software="Audio Tool">HD Audio</Dependency>
+			<Unlock>2000</Unlock>
+			<Category>Audio</Category>
+			<ArtCategory>Audio</ArtCategory>
+			<Description></Description>
+			<DevTime>3</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>7</Usability>
+			<Stability>3</Stability>
+			<CodeArt>0.5</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Surround Sound Concepts</Name>
+			<Unlock>2005</Unlock>
+			<Category>Audio</Category>
+			<ArtCategory>Audio</ArtCategory>
+			<Description></Description>
+			<DevTime>8</DevTime>
+			<Innovation>7</Innovation>
+			<Usability>7</Usability>
+			<Stability>7</Stability>
+			<CodeArt>0.5</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Surround Sound Studio</Name>
+			<Unlock>2009</Unlock>
+			<Category>Audio</Category>
+			<Description></Description>
+			<DevTime>7</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>7</Usability>
+			<Stability>6</Stability>
+			<CodeArt>0.5</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Surround Sound Audio</Name>
+			<Unlock>2009</Unlock>
+			<Category>Audio</Category>
+			<Description></Description>
+			<DevTime>7</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>7</Usability>
+			<Stability>6</Stability>
+			<CodeArt>0.5</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Surround Sound Audio Assets</Name>
+			<Dependency Software="Audio Tool">Surround Sound Studio</Dependency>
+			<Dependency Software="Audio Tool">Surround Sound Audio</Dependency>
+			<Unlock>2009</Unlock>
+			<Category>Audio</Category>
+			<ArtCategory>Audio</ArtCategory>
+			<Description></Description>
+			<DevTime>8</DevTime>
+			<Innovation>7</Innovation>
+			<Usability>7</Usability>
+			<Stability>7</Stability>
+			<CodeArt>0.5</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Advanced Audio Concepts</Name>
+			<Unlock>2010</Unlock>
+			<Dependency Software="Audio Tool">8-Bit Audio Assets</Dependency>
+			<Dependency Software="Audio Tool">16-Bit Audio Assets</Dependency>
+			<Dependency Software="Audio Tool">HD Audio Assets</Dependency>
+			<Dependency Software="Audio Tool">Surround Sound Audio Assets</Dependency>
+			<Category>Audio</Category>
+			<ArtCategory>Audio</ArtCategory>
+			<Description></Description>
+			<DevTime>4</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>4</Usability>
+			<Stability>4</Stability>
+			<CodeArt>0.5</CodeArt>
+		</Feature>
+	</Features>
+</SoftwareType>

@@ -1,0 +1,28 @@
+<SoftwareType>
+	<Name>Antivirus</Name>
+	<Category>Security</Category>
+	<Description>Protecting computers from digital troublemakers since it became profitable to do so.</Description>
+	<Unlock>3000</Unlock>
+	<Random>0.3</Random>
+	<Popularity>0.5</Popularity>
+	<Retention>0.5</Retention>
+	<OSSpecific>True</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>False</InHouse>
+	<Unlock>3000</Unlock>
+	<Iterative>1</Iterative>
+	<IdealPrice>70</IdealPrice>
+	<NameGenerator>Antivirus</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>File scan</Name>
+			<Category>Algorithm</Category>
+			<Description></Description>
+			<DevTime>4</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+	</Features>
+</SoftwareType>

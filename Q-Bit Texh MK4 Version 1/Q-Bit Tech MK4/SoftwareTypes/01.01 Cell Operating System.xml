@@ -1,0 +1,98 @@
+<SoftwareType>
+	<Name>Cell Operating System</Name>
+	<Category>CellTech</Category>
+	<Description>The Software that will run your programs.</Description>
+	<Random>0</Random>
+	<Categories>
+			<Category Name="Office Phone OS">
+			<Unlock>1990</Unlock>
+			<Description>How do you expect your conference calls to go through?</Description>
+			<Popularity>1</Popularity>
+			<Retention>0.8</Retention>
+			<TimeScale>0.7</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+		<Category Name="Cell Phone OS">
+			<Unlock>2000</Unlock>
+			<Description>A small but useable OS for phone users in the late 90s.</Description>
+			<Popularity>1</Popularity>
+			<Retention>0.8</Retention>
+			<TimeScale>0.7</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+	</Categories>
+	<OSSpecific>False</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>False</InHouse>
+	<IdealPrice>100</IdealPrice>
+	<NameGenerator>OS</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Audio Type</Name>
+			<Description>Your Audio input/output</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Cell Phone OS">2000</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>8-Bit Audio</Name>
+			<Unlock>1986</Unlock>
+			<Dependency Software="Cell Operating System">Audio Type</Dependency>
+			<Dependency Software="Audio Tool">8-Bit Audio</Dependency>
+			<Description>.</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Cell Phone OS">1998</SoftwareCategory>
+		</Feature>
+		<Feature From="8-Bit Audio">
+			<Name>16-Bit Audio</Name>
+			<Unlock>1992</Unlock>
+			<Dependency Software="Cell Operating System">8-Bit Audio</Dependency>
+			<Dependency Software="Audio Tool">16-Bit Audio</Dependency>
+			<Description>.</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Cell Phone OS">1998</SoftwareCategory>
+		</Feature>
+		<Feature From="16-Bit Audio">
+			<Name>HD Audio</Name>
+			<Unlock>1998</Unlock>
+			<Dependency Software="Cell Operating System">16-Bit Audio</Dependency>
+			<Dependency Software="Audio Tool">HD Audio</Dependency>
+			<Description>.</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Cell Phone OS">1998</SoftwareCategory>
+		</Feature>
+		<Feature From="HD Audio">
+			<Name>Surround Sound</Name>
+			<Unlock>2004</Unlock>
+			<Dependency Software="Cell Operating System">HD Audio</Dependency>
+			<Dependency Software="Audio Tool">Surround Sound Audio</Dependency>
+			<Description>.</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Cell Phone OS">1998</SoftwareCategory>
+		</Feature>
+	</Features>
+</SoftwareType>

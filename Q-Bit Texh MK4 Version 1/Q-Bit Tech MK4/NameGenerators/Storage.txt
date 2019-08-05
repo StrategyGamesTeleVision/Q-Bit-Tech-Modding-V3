@@ -1,0 +1,16 @@
+-start(base)
+-base(base2,base2,ext)
+Intel
+AMD
+NVidia
+QualComm
+Acer
+Motorola
+HP
+-base2(stop,stop,ext)
+ 6500
+ 7500
+ 8500
+-ext(stop)
+ Elite
+ Pro

@@ -1,0 +1,112 @@
+<SoftwareType>
+	<Name>Memory</Name>
+	<Category>Hardware</Category>
+	<Description>Memory for your computer so YOUR memory does't have to.</Description>
+	<Random>0.1</Random>
+	<Categories>
+		<Category Name="SRAM">
+			<Description>Single-rate RAM</Description>
+			<Popularity>0.95</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+		<Category Name="DRAM">
+			<Description>Double-rate RAM.</Description>
+			<Unlock>1985</Unlock>
+			<Popularity>0.95</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+		<Category Name="SDRAM">
+			<Description>Synchronous DRAM.</Description>
+			<Unlock>1990</Unlock>
+			<Popularity>0.95</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+		<Category Name="SDR SDRAM">
+			<Description>Single Data Rate SDRAM.</Description>
+			<Unlock>1995</Unlock>
+			<Popularity>0.95</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+		<Category Name="DDR SDRAM">
+			<Description>Double Data Rate SDRAM.</Description>
+			<Unlock>2000</Unlock>
+			<Popularity>0.95</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+	</Categories>
+	<Popularity>0.7</Popularity>
+	<Retention>0.5</Retention>
+	<IdealPrice>80</IdealPrice>
+	<OSSpecific>False</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>True</InHouse>
+	<Iterative>1</Iterative>
+	<NameGenerator>RAM</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE" Vital="TRUE">
+			<Name>SRAM 100</Name>
+			<Description>.</Description>
+			<Category>System</Category>
+			<DevTime>2</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="SRAM">1980</SoftwareCategory>
+		</Feature>
+		<Feature Forced="TRUE" Vital="TRUE">
+			<Name>DRAM 100</Name>
+			<Description>.</Description>
+			<Category>System</Category>
+			<DevTime>3</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="DRAM">1986</SoftwareCategory>
+		</Feature>
+		<Feature Forced="TRUE" Vital="TRUE">
+			<Name>SDRAM 100</Name>
+			<Description>.</Description>
+			<Category>System</Category>
+			<DevTime>4</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="SDRAM">1992</SoftwareCategory>
+		</Feature>
+		<Feature Forced="TRUE" Vital="TRUE">
+			<Name>SDR SDRAM 100</Name>
+			<Description>.</Description>
+			<Category>System</Category>
+			<DevTime>5</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="SDR SDRAM">1998</SoftwareCategory>
+		</Feature>
+		<Feature Forced="TRUE" Vital="TRUE">
+			<Name>DDR SDRAM 100</Name>
+			<Description>.</Description>
+			<Category>System</Category>
+			<DevTime>6</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="DDR SDRAM">2004</SoftwareCategory>
+		</Feature>
+	</Features>
+</SoftwareType>

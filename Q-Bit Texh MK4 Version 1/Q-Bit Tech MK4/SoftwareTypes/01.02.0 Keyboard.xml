@@ -1,0 +1,90 @@
+<SoftwareType>
+	<Name>Keyboard</Name>
+	<Category>Hardware</Category>
+	<Description>A Hardware Component used for putting your peripherals</Description>
+	<Random>0.1</Random>
+	<Categories>
+		<Category Name="Home and Office">
+			<Description>Basic Input</Description>
+			<Popularity>0.95</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+		<Category Name="Gaming">
+			<Description>Gaming w/Input</Description>
+			<Popularity>1</Popularity>
+			<Retention>0.8</Retention>
+			<TimeScale>0.7</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+	</Categories>
+	<Popularity>0.7</Popularity>
+	<Retention>0.5</Retention>
+	<IdealPrice>80</IdealPrice>
+	<OSSpecific>False</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>True</InHouse>
+	<Iterative>1</Iterative>
+	<NameGenerator>Keyboards</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>H/O Type</Name>
+			<Description>.</Description>
+			<Category>System</Category>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Home and Office">1980</SoftwareCategory>
+		</Feature>
+		<Feature From="H/O Type">
+			<Name>QWERTY</Name>
+			<Dependency Software="Keyboard">H/O Type</Dependency>
+			<Description>.</Description>
+			<Category>System</Category>
+			<DevTime>2</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Home and Office">1980</SoftwareCategory>
+		</Feature>
+		<Feature From="QWERTY">
+			<Name>Ergo-Dynamic</Name>
+			<Unlock>2000</Unlock>
+			<Description>.</Description>
+			<Category>System</Category>
+			<DevTime>6</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Home and Office">2000</SoftwareCategory>
+		</Feature>
+		<Feature Forced="TRUE">
+			<Name>Gaming Type</Name>
+			<Description>.</Description>
+			<Category>System</Category>
+			<DevTime>4</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Gaming">1980</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Gaming</Name>
+			<Dependency Software="Keyboard">Gaming Type</Dependency>
+			<Description>.</Description>
+			<Category>System</Category>
+			<DevTime>4</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Gaming">1980</SoftwareCategory>
+		</Feature>
+	</Features>
+</SoftwareType>

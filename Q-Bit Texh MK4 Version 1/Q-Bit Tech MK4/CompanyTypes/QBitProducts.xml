@@ -1,0 +1,12 @@
+<CompanyType>
+	<Specialization>Q-Bit Products</Specialization>
+	<PerYear>0.2</PerYear>
+	<Min>1</Min>
+	<Max>3</Max>
+	<Types>
+		<Type Software="Anti-Virus Programs">1</Type>
+		<Type Software="Office Suite 101">1</Type>
+		<Type Software="Web CMS">1</Type>
+		<Type Software="Q-Bit Modding Services">1</Type>
+	</Types>
+</CompanyType>

@@ -1,0 +1,147 @@
+<SoftwareType>
+	<Name>Power Supply</Name>
+	<Category>Power</Category>
+	<Description>A component that supplies power to your computer's motherboard so all other components can work.</Description>
+	<Random>0.1</Random>
+	<Popularity>0.7</Popularity>
+	<Retention>0.5</Retention>
+	<IdealPrice>80</IdealPrice>
+	<OSSpecific>False</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>True</InHouse>
+	<Iterative>1</Iterative>
+	<NameGenerator>Power</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>500watts 24</Name>
+			<Description>.</Description>
+			<Category>Electric</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Research="500watts 24" Vital="TRUE">
+			<Name>500watts 48</Name>
+			<Unlock>1981</Unlock>
+			<Description>.</Description>
+			<Category>Electric</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature From="500watts 24">
+			<Name>600watts 24</Name>
+			<Unlock>1990</Unlock>
+			<Description>.</Description>
+			<Category>System</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Research="600watts 24" Vital="TRUE">
+			<Name>600watts 48</Name>
+			<Unlock>1991</Unlock>
+			<Description>.</Description>
+			<Category>Electric</Category>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature From="600watts 24">
+			<Name>700watts 24</Name>
+			<Unlock>2000</Unlock>
+			<Description>.</Description>
+			<Category>System</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Research="700watts 24" Vital="TRUE">
+			<Name>700watts 48</Name>
+			<Unlock>2001</Unlock>
+			<Description>.</Description>
+			<Category>Electric</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature From="700watts 24">
+			<Name>800watts 24</Name>
+			<Unlock>2010</Unlock>
+			<Description>.</Description>
+			<Category>System</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Research="800watts 24" Vital="TRUE">
+			<Name>800watts 48</Name>
+			<Unlock>2011</Unlock>
+			<Description>.</Description>
+			<Category>Electric</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature From="800watts 24">
+			<Name>900watts 24</Name>
+			<Unlock>3000</Unlock>
+			<Description>.</Description>
+			<Category>System</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Research="900watts 24" Vital="TRUE">
+			<Name>900watts 48</Name>
+			<Unlock>3000</Unlock>
+			<Description>.</Description>
+			<Category>Electric</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature From="900watts 24">
+			<Name>1000watts 24</Name>
+			<Unlock>3000</Unlock>
+			<Description>.</Description>
+			<Category>System</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Research="1000watts 24" Vital="TRUE">
+			<Name>1000watts 48</Name>
+			<Unlock>3000</Unlock>
+			<Description>.</Description>
+			<Category>Electric</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+	</Features>
+</SoftwareType>

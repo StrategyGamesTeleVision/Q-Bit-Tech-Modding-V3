@@ -1,0 +1,15 @@
+-start(base)
+-base(base2,base2,ext)
+Seasonic
+EVGA Coporation
+FSP Group
+Antex
+Thermaltake
+SilverStone
+-base2(stop,stop,ext)
+ 6500
+ 7500
+ 8500
+-ext(stop)
+ Elite
+ Pro

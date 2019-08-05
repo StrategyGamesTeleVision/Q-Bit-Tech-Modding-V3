@@ -1,0 +1,17 @@
+-start(base)
+-base(base2,base2,ext)
+Intel
+AMD
+NVidia
+QualComm
+Acer
+Motorola
+HP
+-base2(stop,stop,ext)
+ L4
+ L4 OC
+-ext(stop)
+ 3.5 GHZ
+ 3.6 GHZ
+ 3.7 GHZ
+ 3.9 GHZ

@@ -1,0 +1,104 @@
+<SoftwareType>
+	<Name>Operating System</Name>
+	<Category>Computing</Category>
+	<Description>The Software that will run your programs.</Description>
+	<Random>0.1</Random>
+	<Categories>
+		<Category Name="Home OS">
+			<Description>Home Computer designed to keep your kids busy doing their non-existent homework.</Description>
+			<Popularity>1</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+		<Category Name="Gaming OS">
+			<Description>Gaming OS specifically designed for gaming.</Description>
+			<Popularity>0.8</Popularity>
+			<Retention>0.8</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+		<Category Name="Office OS">
+			<Unlock>1990</Unlock>
+			<Description>Everyone needs a computer at work to dodge their boss.</Description>
+			<Popularity>0.9</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>0.8</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+	</Categories>
+	<OSSpecific>False</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>False</InHouse>
+	<IdealPrice>100</IdealPrice>
+	<NameGenerator>OS</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Computer Housing</Name>
+			<Description>Basic form factor of how your computer parts will fit in the tower.</Description>
+			<Category>Frame</Category>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1980</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1990</SoftwareCategory>
+		</Feature>
+		<Feature Forced="TRUE">
+			<Name>Keyboard Type</Name>
+			<Description>Type of Keyboard.</Description>
+			<Category>Frame</Category>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
+			<SoftwareCategory Category="Gaming OS">1980</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1990</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Basic</Name>
+			<Dependency Software="Operating System">Keyboard Type</Dependency>
+			<Dependency Software="Keyboard">H/O Type</Dependency>
+			<Description>Your basic QWERTY keyboard, used by many users.</Description>
+			<Category>Frame</Category>
+			<DevTime>0.5</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Home OS">1980</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">1990</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Gaming</Name>
+			<Dependency Software="Operating System">Keyboard Type</Dependency>
+			<Dependency Software="Keyboard">Gaming Type</Dependency>
+			<Description>Gamers meet your new buddy.</Description>
+			<Category>Frame</Category>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Gaming OS">1980</SoftwareCategory>
+		</Feature>
+		<Feature From="Basic">
+			<Name>Ergo-Dynamic</Name>
+			<Unlock>2000</Unlock>
+			<Dependency Software="Keyboard">Ergo-Dynamic</Dependency>
+			<Description>Tired of getting arthritis?.</Description>
+			<Category>Frame</Category>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Home OS">2000</SoftwareCategory>
+			<SoftwareCategory Category="Office OS">2000</SoftwareCategory>
+		</Feature>
+	</Features>
+</SoftwareType>

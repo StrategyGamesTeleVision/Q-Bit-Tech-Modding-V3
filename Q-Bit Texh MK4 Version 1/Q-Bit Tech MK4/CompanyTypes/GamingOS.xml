@@ -1,0 +1,10 @@
+<CompanyType>
+	<Specialization>Console Operating Systems</Specialization>
+	<Force>Operating System,Gaming OS</Force>
+	<PerYear>0.2</PerYear>
+	<Min>2</Min>
+	<Max>4</Max>
+	<Types>
+		<Type Software="Operating System" Category="Gaming OS">1</Type>
+	</Types>
+</CompanyType>

@@ -1,0 +1,28 @@
+<SoftwareType>
+	<Name>Office Software</Name>
+	<Category>Productivity</Category>
+	<Description></Description>
+	<Unlock>3000</Unlock>
+	<Random>0.2</Random>
+	<Popularity>0.7</Popularity>
+	<Retention>0.4</Retention>
+	<OSSpecific>True</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>False</InHouse>
+	<Iterative>1</Iterative>
+	<Unlock>3000</Unlock>
+	<IdealPrice>100</IdealPrice>
+	<NameGenerator>Office</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Word processor</Name>
+			<Category>System</Category>
+			<Description></Description>
+			<DevTime>4</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+	</Features>
+</SoftwareType>

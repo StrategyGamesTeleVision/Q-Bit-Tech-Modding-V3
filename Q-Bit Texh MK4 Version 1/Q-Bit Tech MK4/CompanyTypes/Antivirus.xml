@@ -1,0 +1,9 @@
+<CompanyType>
+	<Specialization>Antivirus</Specialization>
+	<PerYear>0.0</PerYear>
+	<Min>0</Min>
+	<Max>0</Max>
+	<Types>
+		<Type Software="Antivirus">1</Type>
+	</Types>
+</CompanyType>

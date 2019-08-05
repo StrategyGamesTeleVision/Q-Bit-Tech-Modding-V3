@@ -1,0 +1,12 @@
+<CompanyType>
+	<Specialization>Framework Tools</Specialization>
+	<PerYear>0.2</PerYear>
+	<Min>4</Min>
+	<Max>6</Max>
+	<Types>
+		<Type Software="Graphics">1</Type>
+		<Type Software="Memory">1</Type>
+		<Type Software="Processor">1</Type>
+		<Type Software="Heat Sinks">1</Type>
+	</Types>
+</CompanyType>

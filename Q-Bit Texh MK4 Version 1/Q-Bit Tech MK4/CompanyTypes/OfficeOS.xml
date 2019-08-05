@@ -1,0 +1,10 @@
+<CompanyType>
+	<Specialization>Computer1 Operating Systems</Specialization>
+	<Force>Operating System,Office OS</Force>
+	<PerYear>0.2</PerYear>
+	<Min>2</Min>
+	<Max>4</Max>
+	<Types>
+		<Type Software="Operating System" Category="Office OS">1</Type>
+	</Types>
+</CompanyType>

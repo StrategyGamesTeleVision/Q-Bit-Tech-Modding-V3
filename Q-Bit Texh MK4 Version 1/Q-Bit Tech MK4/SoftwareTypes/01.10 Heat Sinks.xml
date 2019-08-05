@@ -1,0 +1,70 @@
+<SoftwareType>
+	<Name>Heat Sinks</Name>
+	<Category>Heat</Category>
+	<Description>To ensure your computer doesnt overheat.</Description>
+	<Random>0.1</Random>
+	<Popularity>0.7</Popularity>
+	<Retention>0.5</Retention>
+	<IdealPrice>80</IdealPrice>
+	<OSSpecific>False</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>True</InHouse>
+	<Iterative>1</Iterative>
+	<NameGenerator>HeatSinks</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>10MM FAN</Name>
+			<Description>.</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature From="10MM FAN">
+			<Name>20MM FAN</Name>
+			<Unlock>1990</Unlock>
+			<Description>.</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature From="20MM FAN">
+			<Name>40MM FAN</Name>
+			<Unlock>2000</Unlock>
+			<Description>.</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature From="40MM FAN">
+			<Name>50MM FAN</Name>
+			<Unlock>2010</Unlock>
+			<Description>.</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature From="50MM FAN">
+			<Name>100MM FAN</Name>
+			<Unlock>3000</Unlock>
+			<Description>.</Description>
+			<Category>Frame</Category>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+	</Features>
+</SoftwareType>
